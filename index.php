@@ -180,11 +180,7 @@
                 <td id="respuesta5" class="oculto"  style="cursor: no-drop;"></td>
                 <td id="puntaje5" class="oculto" style="text-align: center;cursor: no-drop;"></td>
                 </tr>
-                <tr>
-                <th id="itemRespuesta6"  class="itemRespuesta"  scope="row" style="text-align: center;">6</th>
-                <td id="respuesta6" class="oculto" style="cursor: no-drop;"></td>
-                <td id="puntaje6" class="oculto" style="text-align: center;cursor: no-drop;"></td>
-                </tr>
+               
             </tbody>
 
             </table>
@@ -264,42 +260,42 @@
                 </thead>
             <tbody>
             <tr>
-                <th id="itemGanador1" class="itemRespuesta" scope="row" style="text-align: center;">1</th>
+                <th id="itemGanador1" class="" scope="row" style="text-align: center;">1</th>
                     <td id="ressultadoPregunta1" style="">COSAS QUE NO DEBEN FALTAR EN UN DIA DE PLAYA EN AGUADULCE</td>
                     <td id="ressultadoGanador1"  style="text-align: center;"></td>
                     <td id="ressultadoPuntaje1"  style="text-align: center;"></td>
                 </tr>
-                <th id="itemGanador2" class="itemRespuesta" scope="row" style="text-align: center;">2</th>
+                <th id="itemGanador2" class="" scope="row" style="text-align: center;">2</th>
                     <td id="ressultadoPregunta2" style="">MENCIONA QUE SE TE PUEDE PERDER Y TE VUEVES LOCO</td>
                     <td id="ressultadoGanador2"  style="text-align: center;"></td>
                     <td id="ressultadoPuntaje2"  style="text-align: center;"></td>
                 </tr>
-                <th id="itemGanador3" class="itemRespuesta" scope="row" style="text-align: center;">3</th>
+                <th id="itemGanador3" class="" scope="row" style="text-align: center;">3</th>
                     <td id="ressultadoPregunta3" style="">UN LUGAR TÍPICO DE LIMA EN EL QUE LOS NOVIOS SE TOMAN FOTOS DESPUES DE LA CEREMONIA DE MATRIMONIO</td>
                     <td id="ressultadoGanador3"  style="text-align: center;"></td>
                     <td id="ressultadoPuntaje3"  style="text-align: center;"></td>
                 </tr>
-                <th id="itemGanador4" class="itemRespuesta" scope="row" style="text-align: center;">4</th>
+                <th id="itemGanador4" class="" scope="row" style="text-align: center;">4</th>
                     <td id="ressultadoPregunta4" style="">UN "PEDRO" FAMOSO </td>
                     <td id="ressultadoGanador4"  style="text-align: center;"></td>
                     <td id="ressultadoPuntaje4"  style="text-align: center;"></td>
                 </tr>
-                <th id="itemGanador5" class="itemRespuesta" scope="row" style="text-align: center;">5</th>
+                <th id="itemGanador5" class="" scope="row" style="text-align: center;">5</th>
                     <td id="ressultadoPregunta5" style="">MÉTODOS PARA ALIVIAR LA RESACA</td>
                     <td id="ressultadoGanador5"  style="text-align: center;"></td>
                     <td id="ressultadoPuntaje5"  style="text-align: center;"></td>
                 </tr>
-                <th id="itemGanador6" class="itemRespuesta" scope="row" style="text-align: center;">6</th>
+                <th id="itemGanador6" class="" scope="row" style="text-align: center;">6</th>
                     <td id="ressultadoPregunta6" style="">¿QUÉ COMERIAS A LAS 5AM DESPUES DE SALIR DE UNA FIESTA?</td>
                     <td id="ressultadoGanador6"  style="text-align: center;"></td>
                     <td id="ressultadoPuntaje6"  style="text-align: center;"></td>
                 </tr>
-                <th id="itemGanador7" class="itemRespuesta" scope="row" style="text-align: center;">7</th>
+                <th id="itemGanador7" class="" scope="row" style="text-align: center;">7</th>
                     <td id="ressultadoPregunta7" style="">QUÉ NO DEBE FALTAR EN UNA REUNIÓN PARA VER UN PARTIDO DE LA SELECCIÓN</td>
                     <td id="ressultadoGanador7"  style="text-align: center;"></td>
                     <td id="ressultadoPuntaje7"  style="text-align: center;"></td>
                 </tr>
-                <th id="itemGanador8" class="itemRespuesta" scope="row" style="text-align: center;">8</th>
+                <th id="itemGanador8" class="" scope="row" style="text-align: center;">8</th>
                     <td id="ressultadoPregunta8" style="">DECISIONES QUE SE DEBEN TOMAR EN PAREJA</td>
                     <td id="ressultadoGanador8"  style="text-align: center;"></td>
                     <td id="ressultadoPuntaje8"  style="text-align: center;"></td>
@@ -348,7 +344,7 @@
     var puntajeParticipante2 = 0;
 
     var usuarioParticipante = 0;
-    var jsonPreguntas="{\"preguntas\":{\"pregunta1\":{\"desc\":\"COSAS QUE NO DEBEN FALTAR EN UN DIA DE PLAYA EN AGUADULCE\",\"respuestas\":{\"respuesta1\":{\"desc\":\"SOMBRILLA\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"COMIDA EN OLLA\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"REFRESCO EN BOTELLA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"FLOTADOR\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"CAJA DE CHELAS\",\"puntaje\":20}}},\"pregunta2\":{\"desc\":\"MENCIONA QUE SE TE PUEDE PERDER Y TE VUEVES LOCO\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CELULAR\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"LLAVES\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"DOCUMENTOS\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"HIJOS\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PLATA\",\"puntaje\":20}}},\"pregunta3\":{\"desc\":\"LUGAR T\u00cdPICO EN LIMA DONDE SE TOMAN FOTOS DESPUES DE LA CEREMONIA DE MATRIMONIO\",\"respuestas\":{\"respuesta1\":{\"desc\":\"PARQUE DEL AMOR\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"CHORRILLOS\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"EL OLIVAR\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PLAZA MAYOR\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PARQUE DE LA AMISTAD\",\"puntaje\":20}}},\"pregunta4\":{\"desc\":\"UN PEDRO FAMOSO \",\"respuestas\":{\"respuesta1\":{\"desc\":\"PEDRO SUAREZ VERTIZ\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"PEDRO EL APOSTOL\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"PEDRO EL ESCAMOSO\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PEDRO PABLO KUCZYNSKI \",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PEDRO PICAPIEDRA\",\"puntaje\":20}}},\"pregunta5\":{\"desc\":\"M\u00c9TODOS PARA ALIVIAR LA RESACA\",\"respuestas\":{\"respuesta1\":{\"desc\":\"REHIDRANTES\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"AGUA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"SOPA\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"MEDICAMENTOS\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"CEVICHE\",\"puntaje\":20}}},\"pregunta6\":{\"desc\":\"\u00bfQU\u00c9 COMERIAS A LAS 5AM DESPUES DE SALIR DE UNA FIESTA?\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CALDO DE GALLINA\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"SANGUCHON\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"LOMITO\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PESCADO FRITO\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"ANTICUCHOS\",\"puntaje\":20}}},\"pregunta7\":{\"desc\":\"QU\u00c9 NO DEBE FALTAR EN UNA REUNI\u00d3N PARA VER UN PARTIDO DE LA SELECCI\u00d3N\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CHELAS \/ALCOHOL\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"POLOS DE LA SELECCI\u00d3N\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"PIQUEOS \/COMIDA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"TV\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"AMIGOS\",\"puntaje\":20}}},\"pregunta8\":{\"desc\":\"DECISIONES QUE SE DEBEN TOMAR EN PAREJA \",\"respuestas\":{\"respuesta1\":{\"desc\":\"CASARSE\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"TENER UN HIJO\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"EDUCACION DE LOS HIJOS\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"COMPRAR UNA CASA\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"DIVORCIARSE\",\"puntaje\":20}}}}}"
+    var jsonPreguntas="{\"preguntas\":{\"pregunta1\":{\"desc\":\"COSAS QUE NO DEBEN FALTAR EN UN DIA DE PLAYA EN AGUADULCE\",\"respuestas\":{\"respuesta1\":{\"desc\":\"SOMBRILLA\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"COMIDA EN OLLA\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"REFRESCO EN BOTELLA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"FLOTADOR\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"CAJA DE CHELAS\",\"puntaje\":20}}},\"pregunta2\":{\"desc\":\"MENCIONA QUE SE TE PUEDE PERDER Y TE VUEVES LOCO\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CELULAR\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"LLAVES\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"DOCUMENTOS\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"HIJOS\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PLATA\",\"puntaje\":20}}},\"pregunta3\":{\"desc\":\"LUGAR T\u00cdPICO EN LIMA DONDE SE TOMAN FOTOS DESPUES DE LA CEREMONIA DE MATRIMONIO\",\"respuestas\":{\"respuesta1\":{\"desc\":\"PARQUE DEL AMOR\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"CHORRILLOS\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"EL OLIVAR\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PLAZA MAYOR\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PARQUE DE LA AMISTAD\",\"puntaje\":20}}},\"pregunta4\":{\"desc\":\"UN PEDRO FAMOSO \",\"respuestas\":{\"respuesta1\":{\"desc\":\"PEDRO SUAREZ VERTIZ\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"PEDRO EL APOSTOL\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"PEDRO EL ESCAMOSO\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PEDRO PABLO KUCZYNSKI \",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PEDRO PICAPIEDRA\",\"puntaje\":20}}},\"pregunta5\":{\"desc\":\"M\u00c9TODOS PARA ALIVIAR LA RESACA\",\"respuestas\":{\"respuesta1\":{\"desc\":\"REHIDRANTES\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"AGUA\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"SOPA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"MEDICAMENTOS\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"CEVICHE\",\"puntaje\":20}}},\"pregunta6\":{\"desc\":\"\u00bfQU\u00c9 COMERIAS A LAS 5AM DESPUES DE SALIR DE UNA FIESTA?\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CALDO DE GALLINA\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"SANGUCHON\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"LOMITO\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PESCADO FRITO\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"ANTICUCHOS\",\"puntaje\":20}}},\"pregunta7\":{\"desc\":\"QU\u00c9 NO DEBE FALTAR EN UNA REUNI\u00d3N PARA VER UN PARTIDO DE LA SELECCI\u00d3N\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CHELAS \/ALCOHOL\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"POLOS DE LA SELECCI\u00d3N\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"PIQUEOS \/COMIDA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"TV\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"AMIGOS\",\"puntaje\":20}}},\"pregunta8\":{\"desc\":\"DECISIONES QUE SE DEBEN TOMAR EN PAREJA \",\"respuestas\":{\"respuesta1\":{\"desc\":\"CASARSE\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"TENER UN HIJO\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"EDUCACION DE LOS HIJOS\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"COMPRAR UNA CASA\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"DIVORCIARSE\",\"puntaje\":20}}}}}"
 
 
 $( document ).ready(function() {
@@ -511,6 +507,14 @@ $(document).on("click",'#btnGanadores',function(event){
     $("#ingresoParticipante").hide();
     $("#divGanadores").show();
 
+    $("#ressultadoGanador1").html("");$("#ressultadoPuntaje1").html("");
+    $("#ressultadoGanador2").html("");$("#ressultadoPuntaje2").html("");
+    $("#ressultadoGanador3").html("");$("#ressultadoPuntaje3").html("");
+    $("#ressultadoGanador4").html("");$("#ressultadoPuntaje4").html("");
+    $("#ressultadoGanador5").html("");$("#ressultadoPuntaje5").html("");
+    $("#ressultadoGanador6").html("");$("#ressultadoPuntaje6").html("");
+    $("#ressultadoGanador7").html("");$("#ressultadoPuntaje7").html("");
+    $("#ressultadoGanador5").html("");$("#ressultadoPuntaje8").html("");
     /**Ganador 1**/
     if(localStorage.getItem("ganPregunta1") == 1){
         $("#ressultadoGanador1").html(localStorage.getItem("ganParticipante1"));
@@ -624,14 +628,12 @@ function listarPreguntas(pregunta){
     $("#respuesta3").html(jsonRespuestas.respuesta3.desc);
     $("#respuesta4").html(jsonRespuestas.respuesta4.desc);
     $("#respuesta5").html(jsonRespuestas.respuesta5.desc);
-    $("#respuesta6").html(jsonRespuestas.respuesta6.desc);
 
     $("#puntaje1").html(jsonRespuestas.respuesta1.puntaje);
     $("#puntaje2").html(jsonRespuestas.respuesta2.puntaje);
     $("#puntaje3").html(jsonRespuestas.respuesta3.puntaje);
     $("#puntaje4").html(jsonRespuestas.respuesta4.puntaje);
     $("#puntaje5").html(jsonRespuestas.respuesta5.puntaje);
-    $("#puntaje6").html(jsonRespuestas.respuesta6.puntaje);
 
 
 }
