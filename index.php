@@ -58,7 +58,7 @@
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text" id="inputGroup-sizing-default">Nombre: </span>
-            <input id="txtParticipante1" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <input autocomplete="off" id="txtParticipante1" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
       </div>
      
@@ -81,7 +81,7 @@
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text" id="inputGroup-sizing-default">Nombre: </span>
-            <input id="txtParticipante2"  type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <input autocomplete="off" id="txtParticipante2"  type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
         </div>
  
     </div>
