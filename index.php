@@ -45,8 +45,8 @@
     <div class="card h-100">
       <img id="imgP1" style="height: 250px;border: 3px solid #00000042;" src="https://media.gettyimages.com/vectors/superhero-couple-silhouette-in-the-city-vector-id613322400?k=6&m=613322400&s=612x612&w=0&h=G61cocX4PdgjVt6dKEC9uOAK0qmzAsquh4poo0HpMUI=" class="card-img-top" alt="...">
       <div class="card-body" style="background: #d5d6d6;">
-      <h5 class="card-title" style="text-align: center;">Participante N°1</h5>
-        <div class="col" style="margin-left: 40%;margin-bottom: 10px;margin-top: 10px;">
+      <h5 class="card-title" style="text-align: center;margin-bottom: 50px">Equipo N°1</h5>
+        <div class="col" style="margin-left: 40%;margin-bottom: 10px;margin-top: 10px;display: none;">
             <div class="form-check form-check-inline">
                 <input class="form-check-input inlineRadioOptionsP1" type="radio" name="inlineRadioOptionsP1" id="inlineRadio1P1" value="M">
                 <label class="form-check-label" for="inlineRadio1">M</label>
@@ -68,8 +68,8 @@
     <div class="card h-100">
       <img id="imgP2" style="height: 250px;border: 3px solid #00000042;" src="https://media.gettyimages.com/vectors/superhero-couple-silhouette-in-the-city-vector-id613322400?k=6&m=613322400&s=612x612&w=0&h=G61cocX4PdgjVt6dKEC9uOAK0qmzAsquh4poo0HpMUI=" class="card-img-top" alt="...">
       <div class="card-body" style="background: #d5d6d6;">
-        <h5 class="card-title" style="text-align: center;">Participante N°2</h5>
-        <div class="col" style="margin-left: 40%;margin-bottom: 10px;margin-top: 10px;">
+        <h5 class="card-title" style="text-align: center;margin-bottom: 50px;">Equipo N°2</h5>
+        <div class="col" style="margin-left: 40%;margin-bottom: 10px;margin-top: 10px;display: none;">
             <div class="form-check form-check-inline">
                 <input class="form-check-input inlineRadioOptionsP2" type="radio" name="inlineRadioOptionsP2" id="inlineRadio1P2" value="M">
                 <label class="form-check-label" for="inlineRadio1">M</label>
@@ -128,7 +128,7 @@
                         color: white;
                     ">
                     <option selected>-- Seleccione --</option>
-                    <option value="1">COSAS QUE NO DEBEN FALTAR EN UN DIA DE PLAYA EN AGUADULCE</option>
+                    <option value="1">QUE JERGAS USAS PARA LLAMAR A UN AMIGO </option>
                     <option value="2">MENCIONA QUE SE TE PUEDE PERDER Y TE VUEVES LOCO</option>
                     <option value="3">UN LUGAR TÍPICO DE LIMA EN EL QUE LOS NOVIOS SE TOMAN FOTOS DESPUES DE LA CEREMONIA DE MATRIMONIO</option>
                     <option value="4">UN "PEDRO" FAMOSO </option>
@@ -144,41 +144,46 @@
 
     <div id="divRespues" style="display:none">
         <div class="row row-cols-2 " style="margin-top: 30px;">
-            <div class="col-8">
+            <div class="col-8" style="font-weight: bold;font-size: 25px;">
                 
             <table id="tblRespuesta" class="table table-bordered" style="background: white">
                 <thead>
                 <tr>
                 <th scope="col" style="text-align: center;width: 10%;cursor: no-drop;">#</th>
                                 <th scope="col" style="width: 75%;text-align: center;cursor: no-drop;">Respuesta</th>
-                                <th scope="col" style="width: 15%;text-align: center;cursor: no-drop;">Puntaje</th>
+                                <th scope="col" style="width: 15%;text-align: center;cursor: no-drop;display:none">Puntaje</th>
                 </tr>
                 </thead>
             <tbody>
                 <tr>
                 <th id="itemRespuesta1" class="itemRespuesta" scope="row" style="text-align: center;">1</th>
                 <td id="respuesta1" class="oculto" style="cursor: no-drop;"></td>
-                <td id="puntaje1" class="oculto" style="text-align: center;cursor: no-drop;"></td>
+                <td id="puntaje1" class="oculto" style="text-align: center;cursor: no-drop;display:none;"></td>
                 </tr>
                 <tr>
                 <th id="itemRespuesta2" class="itemRespuesta"  scope="row" style="text-align: center;">2</th>
                 <td id="respuesta2" class="oculto" style="cursor: no-drop;"></td>
-                <td id="puntaje2" class="oculto" style="text-align: center;cursor: no-drop;"></td>
+                <td id="puntaje2" class="oculto" style="text-align: center;cursor: no-drop;display:none;"></td>
                 </tr>
                 <tr>
                 <th id="itemRespuesta3" class="itemRespuesta"  scope="row" style="text-align: center;">3</th>
                 <td id="respuesta3" class="oculto" style="cursor: no-drop;"></td>
-                <td id="puntaje3" class="oculto" style="text-align: center;cursor: no-drop;"></td>
+                <td id="puntaje3" class="oculto" style="text-align: center;cursor: no-drop;display:none;"></td>
                 </tr>
                 <tr>
                 <th id="itemRespuesta4" class="itemRespuesta"  scope="row" style="text-align: center;">4</th>
                 <td id="respuesta4" class="oculto" style="cursor: no-drop;"></td>
-                <td id="puntaje4" class="oculto" style="text-align: center;cursor: no-drop;"></td>
+                <td id="puntaje4" class="oculto" style="text-align: center;cursor: no-drop;display:none;"></td>
                 </tr>
                 <tr>
                 <th id="itemRespuesta5" class="itemRespuesta"  scope="row" style="text-align: center;">5</th>
                 <td id="respuesta5" class="oculto"  style="cursor: no-drop;"></td>
-                <td id="puntaje5" class="oculto" style="text-align: center;cursor: no-drop;"></td>
+                <td id="puntaje5" class="oculto" style="text-align: center;cursor: no-drop;display:none;"></td>
+                </tr>
+                <tr>
+                <th id="itemRespuesta6" class="itemRespuesta"  scope="row" style="text-align: center;">6</th>
+                <td id="respuesta6" class="oculto"  style="cursor: no-drop;"></td>
+                <td id="puntaje6" class="oculto" style="text-align: center;cursor: no-drop;display:none;"></td>
                 </tr>
                
             </tbody>
@@ -203,8 +208,8 @@
                     </tr>
 
                     <tr>
-                    <td class="usuarioParticipante1" style="text-align: center;" id="rowRespuesta1">0</td>
-                    <td class="usuarioParticipante2" style="text-align: center;" id="rowRespuesta2">0</td>
+                    <td class="usuarioParticipante1" style="text-align: center;display:none;" id="rowRespuesta1">0</td>
+                    <td class="usuarioParticipante2" style="text-align: center;display:none;" id="rowRespuesta2">0</td>
                     </tr>
                     </tbody>
                 </table>
@@ -255,7 +260,7 @@
                 <th scope="col" style="text-align: center;width: 10%;cursor: no-drop;">#</th>
                                 <th scope="col" style="width: 50%;text-align: center;cursor: no-drop;">PREGUNTA</th>
                                 <th scope="col" style="width: 30%;text-align: center;cursor: no-drop;">GANADOR</th>
-                                <th scope="col" style="width: 20%;text-align: center;cursor: no-drop;">PUNTAJE</th>
+                                <th scope="col" style="width: 20%;text-align: center;cursor: no-drop;display:none;">PUNTAJE</th>
                 </tr>
                 </thead>
             <tbody>
@@ -263,42 +268,42 @@
                 <th id="itemGanador1" class="" scope="row" style="text-align: center;">1</th>
                     <td id="ressultadoPregunta1" style="">COSAS QUE NO DEBEN FALTAR EN UN DIA DE PLAYA EN AGUADULCE</td>
                     <td id="ressultadoGanador1"  style="text-align: center;"></td>
-                    <td id="ressultadoPuntaje1"  style="text-align: center;"></td>
+                    <td id="ressultadoPuntaje1"  style="text-align: center;display:none;"></td>
                 </tr>
                 <th id="itemGanador2" class="" scope="row" style="text-align: center;">2</th>
                     <td id="ressultadoPregunta2" style="">MENCIONA QUE SE TE PUEDE PERDER Y TE VUEVES LOCO</td>
                     <td id="ressultadoGanador2"  style="text-align: center;"></td>
-                    <td id="ressultadoPuntaje2"  style="text-align: center;"></td>
+                    <td id="ressultadoPuntaje2"  style="text-align: center;display:none;"></td>
                 </tr>
                 <th id="itemGanador3" class="" scope="row" style="text-align: center;">3</th>
                     <td id="ressultadoPregunta3" style="">UN LUGAR TÍPICO DE LIMA EN EL QUE LOS NOVIOS SE TOMAN FOTOS DESPUES DE LA CEREMONIA DE MATRIMONIO</td>
                     <td id="ressultadoGanador3"  style="text-align: center;"></td>
-                    <td id="ressultadoPuntaje3"  style="text-align: center;"></td>
+                    <td id="ressultadoPuntaje3"  style="text-align: center;display:none;"></td>
                 </tr>
                 <th id="itemGanador4" class="" scope="row" style="text-align: center;">4</th>
                     <td id="ressultadoPregunta4" style="">UN "PEDRO" FAMOSO </td>
                     <td id="ressultadoGanador4"  style="text-align: center;"></td>
-                    <td id="ressultadoPuntaje4"  style="text-align: center;"></td>
+                    <td id="ressultadoPuntaje4"  style="text-align: center;display:none;"></td>
                 </tr>
                 <th id="itemGanador5" class="" scope="row" style="text-align: center;">5</th>
                     <td id="ressultadoPregunta5" style="">MÉTODOS PARA ALIVIAR LA RESACA</td>
                     <td id="ressultadoGanador5"  style="text-align: center;"></td>
-                    <td id="ressultadoPuntaje5"  style="text-align: center;"></td>
+                    <td id="ressultadoPuntaje5"  style="text-align: center;display:none;"></td>
                 </tr>
                 <th id="itemGanador6" class="" scope="row" style="text-align: center;">6</th>
                     <td id="ressultadoPregunta6" style="">¿QUÉ COMERIAS A LAS 5AM DESPUES DE SALIR DE UNA FIESTA?</td>
                     <td id="ressultadoGanador6"  style="text-align: center;"></td>
-                    <td id="ressultadoPuntaje6"  style="text-align: center;"></td>
+                    <td id="ressultadoPuntaje6"  style="text-align: center;display:none;"></td>
                 </tr>
                 <th id="itemGanador7" class="" scope="row" style="text-align: center;">7</th>
                     <td id="ressultadoPregunta7" style="">QUÉ NO DEBE FALTAR EN UNA REUNIÓN PARA VER UN PARTIDO DE LA SELECCIÓN</td>
                     <td id="ressultadoGanador7"  style="text-align: center;"></td>
-                    <td id="ressultadoPuntaje7"  style="text-align: center;"></td>
+                    <td id="ressultadoPuntaje7"  style="text-align: center;display:none;"></td>
                 </tr>
                 <th id="itemGanador8" class="" scope="row" style="text-align: center;">8</th>
                     <td id="ressultadoPregunta8" style="">DECISIONES QUE SE DEBEN TOMAR EN PAREJA</td>
                     <td id="ressultadoGanador8"  style="text-align: center;"></td>
-                    <td id="ressultadoPuntaje8"  style="text-align: center;"></td>
+                    <td id="ressultadoPuntaje8"  style="text-align: center;display:none;"></td>
                 </tr>
             </tbody>
 
@@ -344,10 +349,12 @@
     var puntajeParticipante2 = 0;
 
     var usuarioParticipante = 0;
-    var jsonPreguntas="{\"preguntas\":{\"pregunta1\":{\"desc\":\"COSAS QUE NO DEBEN FALTAR EN UN DIA DE PLAYA EN AGUADULCE\",\"respuestas\":{\"respuesta1\":{\"desc\":\"SOMBRILLA\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"COMIDA EN OLLA\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"REFRESCO EN BOTELLA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"FLOTADOR\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"CAJA DE CHELAS\",\"puntaje\":20}}},\"pregunta2\":{\"desc\":\"MENCIONA QUE SE TE PUEDE PERDER Y TE VUEVES LOCO\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CELULAR\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"LLAVES\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"DOCUMENTOS\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"HIJOS\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PLATA\",\"puntaje\":20}}},\"pregunta3\":{\"desc\":\"LUGAR T\u00cdPICO EN LIMA DONDE SE TOMAN FOTOS DESPUES DE LA CEREMONIA DE MATRIMONIO\",\"respuestas\":{\"respuesta1\":{\"desc\":\"PARQUE DEL AMOR\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"CHORRILLOS\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"EL OLIVAR\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PLAZA MAYOR\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PARQUE DE LA AMISTAD\",\"puntaje\":20}}},\"pregunta4\":{\"desc\":\"UN PEDRO FAMOSO \",\"respuestas\":{\"respuesta1\":{\"desc\":\"PEDRO SUAREZ VERTIZ\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"PEDRO EL APOSTOL\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"PEDRO EL ESCAMOSO\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PEDRO PABLO KUCZYNSKI \",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PEDRO PICAPIEDRA\",\"puntaje\":20}}},\"pregunta5\":{\"desc\":\"M\u00c9TODOS PARA ALIVIAR LA RESACA\",\"respuestas\":{\"respuesta1\":{\"desc\":\"REHIDRANTES\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"AGUA\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"SOPA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"MEDICAMENTOS\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"CEVICHE\",\"puntaje\":20}}},\"pregunta6\":{\"desc\":\"\u00bfQU\u00c9 COMERIAS A LAS 5AM DESPUES DE SALIR DE UNA FIESTA?\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CALDO DE GALLINA\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"SANGUCHON\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"LOMITO\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PESCADO FRITO\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"ANTICUCHOS\",\"puntaje\":20}}},\"pregunta7\":{\"desc\":\"QU\u00c9 NO DEBE FALTAR EN UNA REUNI\u00d3N PARA VER UN PARTIDO DE LA SELECCI\u00d3N\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CHELAS \/ALCOHOL\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"POLOS DE LA SELECCI\u00d3N\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"PIQUEOS \/COMIDA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"TV\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"AMIGOS\",\"puntaje\":20}}},\"pregunta8\":{\"desc\":\"DECISIONES QUE SE DEBEN TOMAR EN PAREJA \",\"respuestas\":{\"respuesta1\":{\"desc\":\"CASARSE\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"TENER UN HIJO\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"EDUCACION DE LOS HIJOS\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"COMPRAR UNA CASA\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"DIVORCIARSE\",\"puntaje\":20}}}}}"
+    var jsonPreguntas="{\"preguntas\":{\"pregunta1\":{\"desc\":\"QUE JERGAS USAS PARA LLAMAR A UN AMIGO \",\"respuestas\":{\"respuesta1\":{\"desc\":\"BROTHER\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"TIO\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"BATER\u00cdA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PRIMO\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PATA\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"CHOCHERA\",\"puntaje\":20}}},\"pregunta2\":{\"desc\":\"MENCIONA QUE SE TE PUEDE PERDER Y TE VUEVES LOCO\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CELULAR\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"LLAVES\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"DOCUMENTOS\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"HIJOS\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PLATA\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"BILLETERA\",\"puntaje\":20}}},\"pregunta3\":{\"desc\":\"LUGAR Tu00cdPICO EN LIMA DONDE SE TOMAN FOTOS DESPUES DE LA CEREMONIA DE MATRIMONIO\",\"respuestas\":{\"respuesta1\":{\"desc\":\"PARQUE DEL AMOR\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"CHORRILLOS\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"EL OLIVAR\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PLAZA MAYOR\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PARQUE DE LA AMISTAD\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"PUENTE DE LOS SUSPIROS\",\"puntaje\":20}}},\"pregunta4\":{\"desc\":\"UN PEDRO FAMOSO \",\"respuestas\":{\"respuesta1\":{\"desc\":\"PEDRO SUAREZ VERTIZ\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"PEDRO EL APOSTOL\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"PEDRO EL ESCAMOSO\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PEDRO PABLO KUCZYNSKI \",\"puntaje\":20},\"respuesta5\":{\"desc\":\"PEDRO PICAPIEDRA\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"PEDRO CASTILLO\",\"puntaje\":20}}},\"pregunta5\":{\"desc\":\"Mu00c9TODOS PARA ALIVIAR LA RESACA\",\"respuestas\":{\"respuesta1\":{\"desc\":\"REHIDRANTES\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"AGUA\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"SOPA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"MEDICAMENTOS\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"CEVICHE\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"MAS TRAGO\",\"puntaje\":20}}},\"pregunta6\":{\"desc\":\"u00bfQUu00c9 COMERIAS A LAS 5AM DESPUES DE SALIR DE UNA FIESTA?\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CALDO DE GALLINA\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"SANGUCHON\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"LOMITO\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"PESCADO FRITO\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"ANTICUCHOS\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"AGUADITO\",\"puntaje\":20}}},\"pregunta7\":{\"desc\":\"QUu00c9 NO DEBE FALTAR EN UNA REUNIu00d3N PARA VER UN PARTIDO DE LA SELECCIu00d3N\",\"respuestas\":{\"respuesta1\":{\"desc\":\"CHELAS \/ALCOHOL\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"POLOS DE LA SELECCIÓN\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"PIQUEOS \/COMIDA\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"TV\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"AMIGOS\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"FAMILIA\",\"puntaje\":20}}},\"pregunta8\":{\"desc\":\"DECISIONES QUE SE DEBEN TOMAR EN PAREJA \",\"respuestas\":{\"respuesta1\":{\"desc\":\"CASARSE\",\"puntaje\":20},\"respuesta2\":{\"desc\":\"TENER UN HIJO\",\"puntaje\":20},\"respuesta3\":{\"desc\":\"EDUCACION DE LOS HIJOS\",\"puntaje\":20},\"respuesta4\":{\"desc\":\"COMPRAR UNA CASA\",\"puntaje\":20},\"respuesta5\":{\"desc\":\"DIVORCIARSE\",\"puntaje\":20},\"respuesta6\":{\"desc\":\"VIAJAR\",\"puntaje\":20}}}}}"
 
 
 $( document ).ready(function() {
+
+
 
 $('.inlineRadioOptionsP1').click(function (e) {
     var result = $(this).val()
@@ -482,6 +489,19 @@ if(usuarioParticipante > 0){
 });  
 
 $(document).on("click",'#btnFinalizar',function(event){
+
+    var count = 1
+    var total=0;
+    while(count <= 6){
+    console.log("--"+count)
+    if($("#itemRespuesta"+count).hasClass("usuarioSelected") == false){
+    total = count
+    count = 9 
+    }
+    count++;
+    }
+
+if(count == 7){
     var pregunta= $("#inputGroupSelect01").val()
     var ganador = "";
     var puntaje = "" ;
@@ -489,18 +509,22 @@ $(document).on("click",'#btnFinalizar',function(event){
     var puntaje1 = $("#rowRespuesta1").text();
     var puntaje2 = $("#rowRespuesta2").text();
 
-    if(parseFloat(puntaje1) > parseFloat(puntaje2)){
+    if($("#rowParticipante1").hasClass("usuarioSelected")){
         ganador = $("#rowParticipante1").text();
         puntaje = puntaje1;
     }else{
         ganador = $("#rowParticipante2").text();
         puntaje = puntaje2;
     }
+
+
+
     localStorage.setItem("ganPregunta"+pregunta,"1");
     localStorage.setItem("ganParticipante"+pregunta,ganador);
     localStorage.setItem("ganPuntaje"+pregunta,puntaje);
 
     location.reload();
+}
 });
 
 $(document).on("click",'#btnGanadores',function(event){
@@ -615,6 +639,11 @@ $(document).on("click",'#btnLimpiar',function(event){
     localStorage.removeItem("ganPuntaje8");
 });
 
+
+$("input[name=inlineRadioOptionsP1][value=M]").click();
+$("input[name=inlineRadioOptionsP2][value=M]").click();
+
+
 });
 
 
@@ -628,12 +657,14 @@ function listarPreguntas(pregunta){
     $("#respuesta3").html(jsonRespuestas.respuesta3.desc);
     $("#respuesta4").html(jsonRespuestas.respuesta4.desc);
     $("#respuesta5").html(jsonRespuestas.respuesta5.desc);
+    $("#respuesta6").html(jsonRespuestas.respuesta6.desc);
 
     $("#puntaje1").html(jsonRespuestas.respuesta1.puntaje);
     $("#puntaje2").html(jsonRespuestas.respuesta2.puntaje);
     $("#puntaje3").html(jsonRespuestas.respuesta3.puntaje);
     $("#puntaje4").html(jsonRespuestas.respuesta4.puntaje);
     $("#puntaje5").html(jsonRespuestas.respuesta5.puntaje);
+    $("#puntaje6").html(jsonRespuestas.respuesta6.puntaje);
 
 
 }
